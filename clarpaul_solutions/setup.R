@@ -10,7 +10,8 @@ if (!file.exists("household_power_consumption.zip")) {
     cat("File 'household_power_consumption.zip' has already been downloaded.\nChecking if data is loaded...\n")
 }
 
-if (!("powerdf" %in% ls()) || nrow(powerdf) != 2880) { # nrow(powerdf) evaulated iff "powerdf" in ls()
+dtrnge <- c("1/2/2007","2/2/2007")
+if (!("powerdf" %in% ls()) || sum(powerdf$Date %in% dtrnge)!=2880) { # sum evaluated iff "powerdf" in ls()
     
     cat("Reading compressed data...")
     classes <- c("character", "character", rep("numeric", times = 7))
@@ -29,3 +30,4 @@ if (!("powerdf" %in% ls()) || nrow(powerdf) != 2880) { # nrow(powerdf) evaulated
 } else {
     cat("Data is loaded and ready for use.")
 }
+rm(list = "dtrnge")

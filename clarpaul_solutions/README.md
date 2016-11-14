@@ -1,4 +1,5 @@
+## Note to evaluator
 
-# Note to user
-
-Please download all R scripts in this folder to your working directory and run from there.  Note that the script `setup.R` is used to download, read, and prepare the data used for the plots.
+  1. To recreate all plots, the user should download all **_R_** scripts in the folder `/clarpaul_solutions` of the repo `ExData_Plotting1` to his/her working directory and run `Plot1.R` through `Plot4.R` from that working directory.
+  2. Note that the script `setup.R` is also required. It is used at the beging of each plotting script `Plot1.R` to `Plot4.R`, to download, read, and prepare the data used for the plots.
+  3. Note that `setup.R` only downloads data if the file `household_power_consumption.zip` is not present in the working directory, and only reads and prepares data if the object `profiledf` is not loaded in the global environment with the correct number of rows.  If the user of the code want to download and read/prepare this data via other means (using the same naming conventions), `setup.R` will not overwrite them.

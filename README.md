@@ -1,11 +1,20 @@
+# PLEASE READ note from assignment author Paul Clark
+
+  1. Folder `clarpaul_solutions` in this repo `ExData_Plotting1` contain all Paul Cark's solutions to this assignment.
+  2. These include `R` scripts `plotN.R` and plots `plotN.png`, for N = 1 to 4.
+  3. They also include a setup script `setup.R`, which is automatically run at the beginning of each plotting script.
+
 ## Introduction
 
 This assignment uses data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
 Learning Repository</a>, a popular repository for machine learning
-datasets. In particular, we will be using the "Individual household
+datasets. 
+
+In particular, we will be using the "Individual household
 electric power consumption Data Set" which I have made available on
 the course web site:
+
 
 
 * <b>Dataset</b>: <a href="https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip">Electric power consumption</a> [20Mb]

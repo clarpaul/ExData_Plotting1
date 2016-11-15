@@ -24,3 +24,4 @@ with(powerdf, {
 
 })
 dev.off()
+cat("plot4.png has been written to the working directory.\n")

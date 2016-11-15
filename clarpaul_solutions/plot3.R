@@ -11,4 +11,4 @@ with(powerdf, {
     legend("topright", legend = names(powerdf[8:10]), lty = c(1,1,1), col = c("black","red","blue")) 
 })
 dev.off()
-
+cat("plot3.png has been written to the working directory.\n")

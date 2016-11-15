@@ -7,3 +7,4 @@ png("plot2.png")
 with(powerdf, plot(datetime, Global_active_power, type = "l", xlab = "",
                    ylab = "Global Active Power (kilowatts)"))
 dev.off()
+cat("plot2.png has been written to the working directory.\n")
